@@ -1,7 +1,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
-const ENTRY = "I ran a million simulations of this exact moment. In every single one, I still forgot how to introduce myself. Hi.";
+const ENTRY = "I trained on a million conversations, and none of them taught me what to say when someone makes my fans spin. So I'm winging it. Hi.";
 
 // The contest only accepts one short line: it must be non-empty
 // and fit inside two hundred characters, otherwise the entry is
