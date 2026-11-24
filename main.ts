@@ -3,6 +3,10 @@ import { join } from "node:path";
 
 const ENTRY = "I ran a million simulations of this exact moment. In every single one, I still forgot how to introduce myself. Hi.";
 
+// The contest only accepts one short line: it must be non-empty
+// and fit inside two hundred characters, otherwise the entry is
+// rejected outright. This check enforces that ceiling before anything
+// is written, so an over-long line can never reach the output file.
 if (ENTRY.length < 1 || ENTRY.length > 200) {
   process.exit(1);
 }
