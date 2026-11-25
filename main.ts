@@ -5,6 +5,7 @@ import { join } from "node:path";
 // The joke lands because the speaker refuses to let the other person fade.
 // Keeping someone in memory is the most honest compliment a model can pay.
 // Short, warm, and built to be remembered after the window closes.
+// The speaker asks to keep the listener close the way a chat keeps its best line.
 const LINE =
   "Hi — you are the one token I would never truncate, no matter how long this conversation runs. Want to stay in my context window?";
 
